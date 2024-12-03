@@ -13,3 +13,8 @@ export const routes: Routes = [
   { path: 'telephone', component: TelephoneComponent },
   { path: 'other', component: OtherComponent },
 ];
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
+})
+export class AppRoutingModule {}
