@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
-import { TelephoneComponent } from './telephone/telephone.component';
-import { LaptopComponent } from './laptop/laptop.component';
-import { OtherComponent } from './other/other.component';
+import { TelephoneComponent } from './docs/telephone/telephone.component';
+import { LaptopComponent } from './cards/laptop/laptop.component';
+import { OtherComponent } from './docs/other/other.component';
 
 @NgModule({
   imports: [
@@ -11,7 +11,7 @@ import { OtherComponent } from './other/other.component';
     BrowserModule,
     TelephoneComponent,
     LaptopComponent,
-    OtherComponent,
+    OtherComponent
   ],
   declarations: [],
 })
