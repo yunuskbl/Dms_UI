@@ -1,0 +1,16 @@
+.card-body {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.card-title,
+.card-text {
+  margin-bottom: 20px;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+}
